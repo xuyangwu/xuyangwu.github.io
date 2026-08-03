@@ -195,11 +195,20 @@ h3 {
 }
 
 .publication-title {
-  font-weight: 700;
+    font-weight: 400;          /* 或者 500 */
+    color: #111827;
+    line-height: 1.45;
 }
 
 .publication-title a {
-  color: #111827;
+    color: #111827;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+.publication-title a:hover {
+    color: #1f6fd1;
+    text-decoration: underline;
 }
 
 .publication-meta {
