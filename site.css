@@ -202,7 +202,7 @@ h3 {
 }
 
 .publication-title {
-    font-weight: 400;          /* 或者 500 */
+    font-weight: 500;          /* 或者 500 */
     color: #111827;
     line-height: 1.45;
 }
@@ -272,8 +272,9 @@ h3 {
 }
 
 .paper-title {
-    color: #374151;
-    font-weight: 400;
+    font-weight: 500;          /* 或者 500 */
+    color: #111827;
+    line-height: 1.45;
 }
 
 .paper-title a {
