@@ -265,8 +265,18 @@ h3 {
 }
 
 .paper-title {
-  color: #111827;
-  font-weight: 700;
+    color: #374151;
+    font-weight: 400;
+}
+
+.year-publications {
+    color: #6b7280;
+}
+
+.venue-tag {
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 0.82rem;
 }
 
 .compact-links {
