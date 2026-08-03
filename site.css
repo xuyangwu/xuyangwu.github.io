@@ -1,3 +1,7 @@
+:root{
+    --link-blue: #2563EB;
+}
+
 .compact-links {
     display: none;
 }
@@ -359,10 +363,12 @@ h3 {
   margin: 8px 0;
   color: #374151;
 }
-
+.research-links a{
+    
+}
 .research-links a {
-  color: #2457A6;
-  font-size: 1rem;
+    color: var(--link-blue);
+    font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -377,7 +383,7 @@ h3 {
 }
 
 .simple-publication-link a {
-  color: var(--blue);
+  color: var(--link-blue);
   font-size: 1rem;
   font-weight: 400;
 }
