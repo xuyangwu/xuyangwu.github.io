@@ -327,9 +327,10 @@ h3 {
 }
 
 .research-links a {
-  color: var(--blue);
+  color: #374151;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .research-links a:hover {
