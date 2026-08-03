@@ -2,9 +2,6 @@
     display: none;
 }
 
-.publication-links {
-    display: none;
-}
 
 :root {
   --text: #1f2937;
@@ -402,4 +399,9 @@ h3 {
   border: 0;
   padding: 0;
   margin: 0;
+}
+
+
+.publication-links {
+    display: none;
 }
