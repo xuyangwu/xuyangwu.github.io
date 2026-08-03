@@ -1,3 +1,6 @@
+.compact-links {
+    display: none;
+}
 
 :root {
   --text: #1f2937;
@@ -267,6 +270,16 @@ h3 {
 .paper-title {
     color: #374151;
     font-weight: 400;
+}
+
+.paper-title a {
+    color: #374151;
+    text-decoration: none;
+}
+
+.paper-title a:hover {
+    color: #1f6fd1;
+    text-decoration: underline;
 }
 
 .year-publications {
