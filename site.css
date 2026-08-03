@@ -36,32 +36,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
-}
-
-.header-inner {
-  width: min(1180px, calc(100% - 40px));
-  min-height: 68px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.brand {
-  color: var(--navy);
-  font-size: 1.18rem;
-  font-weight: 760;
-  letter-spacing: -0.02em;
-}
-
 .brand:hover {
   text-decoration: none;
 }
@@ -86,9 +60,9 @@ a:hover {
 }
 
 main {
-  width: min(1180px, calc(100% - 40px));
-  margin: 0 auto;
-  padding: 54px 0 68px;
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 36px 0 68px;
 }
 
 .hero {
