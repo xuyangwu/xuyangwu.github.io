@@ -110,21 +110,35 @@ h2 {
 }
 
 .hero-affiliation {
-  max-width: 700px;
-  margin: 0;
-  color: var(--muted);
+    max-width: 900px;      /* allow a longer line */
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.0rem;
+    line-height: 1.45;
 }
 
 .hero-intro {
-  max-width: 790px;
-  margin: 22px 0 0;
-  color: #4e5b70;
-  font-size: 1.04rem;
+    margin-top: 14px;      /* instead of 22px */
+    max-width: 790px;
+    color: #4e5b70;
+    font-size: 1.04rem;
+    line-height: 1.65;
 }
 
 .email-line {
-  margin-top: 18px;
-  font-weight: 620;
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 1rem;
+}
+
+.email-line a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.email-line a:hover {
+    text-decoration: underline;
 }
 
 .portrait-wrap {
