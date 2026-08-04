@@ -6,6 +6,27 @@
     display: none;
 }
 
+.openings {
+  max-width: 820px;
+}
+
+.openings p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.openings a {
+  color: var(--blue);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.openings a:hover {
+  text-decoration: underline;
+}
+
 .recruitment {
   margin: 14px 0 0;
   color: var(--muted);
