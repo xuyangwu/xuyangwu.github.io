@@ -7,8 +7,20 @@
     border-radius:8px;
 }
 
-.hero{
-    gap:40px;
+.hero {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.portrait {
+  display: block;
+  width: 250px;
+  height: 325px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
 }
 
 .hero-text{
@@ -358,7 +370,7 @@ h3 {
   font-size: 0.82rem;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
 .hero {
     grid-template-columns: 1fr;
   }
