@@ -91,13 +91,6 @@ main {
   padding: 32px 0 64px;
 }
 
-.hero {
-  display: grid;
-  grid-template-columns: 190px 1fr;
-  gap: 40px;
-  align-items: start;
-}
-
 .portrait {
   width: 190px;
   height: 245px;
