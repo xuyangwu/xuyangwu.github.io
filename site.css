@@ -6,6 +6,12 @@
     display: none;
 }
 
+.recruitment {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
 
 :root {
   --text: #1f2937;
