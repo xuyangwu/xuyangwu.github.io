@@ -2,6 +2,19 @@
     --link-blue: #2563EB;
 }
 
+.profile-photo img{
+    width:300px;
+    border-radius:8px;
+}
+
+.hero{
+    gap:40px;
+}
+
+.hero-text{
+    max-width:820px;
+}
+
 .compact-links {
     display: none;
 }
