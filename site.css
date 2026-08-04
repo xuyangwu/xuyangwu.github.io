@@ -25,6 +25,8 @@ body {
   line-height: 1.55;
 }
 
+
+
 a {
   color: var(--blue);
   text-decoration: none;
@@ -410,4 +412,23 @@ h3 {
 
 .publication-links {
     display: none;
+}
+
+.open-positions{
+    margin-top:24px;
+}
+
+.open-positions h3{
+    margin:0 0 8px 0;
+    font-size:1.05rem;
+    font-weight:600;
+    color:#111827;
+}
+
+.open-positions p{
+    margin:0;
+    font-size:0.98rem;
+    line-height:1.65;
+    color:#6B7280;
+    max-width:760px;
 }
